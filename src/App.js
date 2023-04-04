@@ -1,10 +1,14 @@
+import { Fragment, useState } from "react";
 import SimpleInput from "./components/SimpleInput";
+import NewForm from "./components/NewForm";
 
 function App() {
+  
+
   return (
-    <div className="app">
-      <SimpleInput />
-    </div>
+    <Fragment>
+     <NewForm/>
+    </Fragment>
   );
 }
 
